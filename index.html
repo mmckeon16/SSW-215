@@ -1,13 +1,12 @@
 <!DOCTYPE htlm>
 <html>
 <header>
-	<font font-family= 'Open Sans'>
 	<title>
 		Mary's Webpage
 	</title>
-	</font>
+	<link rel="stylesheet" href="style.css">
 </header>
-<body style = "background : hsl(195, 2%, 95%)">
+<body>
 	<a href="http://stevens.edu">
 		<img src = "bw_logo.png" width="150px" height="60px"></img>
 	</a>
@@ -18,53 +17,51 @@
 				<img src = "branchesL.png" width = "200px" height = "600px" align="left">
 			</td>
 			<td>
-				<h1 style = "font-family: Helvetica; text-align: center">
+				<h1>
 					Welcome to my webpage
 				</h1>
-				<p style="text-align: center"><font face = "verdana">
+				<p>
 					This is some text, I'm <em>trying</em> to make as long as <b>possible.</b> 
-					<span style= "color : hsl(0, 100%, 27%)">Click <a href="http://stevens.edu"> here</a> or on the Stevens Logo to go to stevens.edu</span>
-				</font></p>
+					<span id = sp>Click <a href="http://stevens.edu"> here</a> or on the Stevens Logo to go to stevens.edu</span>
+				</p>
 				<br>
-				<font face = "verdana">
-				<div style="background: white">
+				<div id = d1; align="center">
 					<br>
-					<table align = "center"; style = "border-color :hsl(236, 97%, 9%);border-spacing: 5px; font-size:20px; ">
-						<th colspan="2"; style = "text-align: center;color:white;background: hsl(204, 97%, 53%)">Mary's Opinions</th>
-						<tr><td style = "text-align: center;color:white;background: hsl(210, 19%, 50%)">Best Show</td><td style = "text-align: center;color:white;background: hsl(236, 97%, 16%)">SNL</td></tr>
-						<tr><td style = "width: 50%; text-align: center; color:white; background: hsl(204, 97%, 53%)">Best Hobby</td><td style = "text-align: center; color:white; background: hsl(210, 19%, 50%)">Reading</td></tr>
-						<tr><td style = "text-align: center; color:white; background: hsl(236, 97%, 16%)">Best Color</td><td style = "color:blue; text-align: center;background: hsl(204, 97%, 53%)">Blue</td></tr>
-						<tr><td style = "text-align: center; background: hsl(210, 19%, 50%); color:white">Best Hometown</td><td style = "text-align: center; background: hsl(236, 97%, 16%); color:white">Point Pleasant, NJ</td></tr>
+					<table class = t1>
+						<th colspan="2"; id = th1>Mary's Opinions</th>
+						<tr><td  id = "tdg">Best Show</td><td id = "tdd">SNL</td></tr>
+						<tr><td id = "td50">Best Hobby</td><td id = "tdg">Reading</td></tr>
+						<tr><td id = "tdd">Best Color</td><td id = tdblue>Blue</td></tr>
+						<tr><td id = "tdg">Best Hometown</td><td id = "tdd">Point Pleasant, NJ</td></tr>
 					</table>
 					<br>
 				</div>
 				<br>
 				<br>
 				<table align = "center">
-					<th colspan="2" style="text-align:center">
+					<th colspan="2">
 						Here is an unordered and ordered list of my favorite drinks
 					</th>
 					<tr>
 						<td width="50%">
-							<ul style="list-style-type: square; background: #3399ff;padding: 20px; margin-right: 1%">
-							  <li style = "background: #ffe5e5;padding: 5px;margin-left: 10px;">Iced Tea</li>
-							  <li style = "background: #ffe5e5;padding: 5px;margin-left: 10px;">Water</li>
-							  <li style = "background: #ffe5e5;padding: 5px;margin-left: 10px;">Lemonade</li>
+							<ul>
+							  <li>Iced Tea</li>
+							  <li>Water</li>
+							  <li>Lemonade</li>
 							</ul>
 						</td>
 						<td>
-							<ol style = "background: #ff9999;padding: 20px;">
-								<li style = "background: #ffe5e5;padding: 5px;margin-left: 5px;">Water</li>
-								<li style = "background: #ffe5e5;padding: 5px;margin-left: 5px;">Iced Tea</li>
-								<li style = "background: #ffe5e5;padding: 5px;margin-left: 5px;">Lemonade</li>
+							<ol>
+								<li>Water</li>
+								<li>Iced Tea</li>
+								<li>Lemonade</li>
 							</ol>
 						</td>
 					</tr>
 				</table>
-				</font>
 
-				<div align = center style="font-family: verdana">
-					<button type="button" style="background-color: hsl(0, 100%, 27%);border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;">Click Me to do nothing!</button>
+				<div align = center>
+					<button type="button">Click Me to do nothing!</button>
 					<br>
 					<p>
 						Below is a text input that could be a search bar with a little work
@@ -78,7 +75,7 @@
 		</tr>
 	</table>
 </body>
-<footer style="display:block; background: white; font-family: verdana">
+<footer>
 	<p> This is a footer
 		<br>
 		Posted by: Mary McKeon 
